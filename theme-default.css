@@ -75,7 +75,6 @@ label.pseudo-input-label {
 md-autocomplete md-chips .md-chips .md-chip-input-container {
     color: rgb(219 219 219);
 }
-/* End Mail editor. Headers */
 md-list-item.md-clickable._md-button-wrap._md.layout-align-space-between-center.layout-row {
     background-color: rgb(63, 59, 59);
 }
@@ -103,7 +102,6 @@ md-autocomplete.input.ng-pristine.ng-valid.ng-empty.ng-valid-required.ng-valid-m
     background-color: rgb(48 48 48) !important;
 }
 
-}
 /* Selected mail */
 md-list-item.sg-message-list-item._md-button-wrap.md-with-secondary._md.md-clickable.md-default-theme.md-accent.md-bg.md-hue-2 {
     background-color: rgb(84,96,124);
@@ -272,3 +270,16 @@ main.view.md-default-theme.md-background.md-hue-1.md-bg {
     color: rgb(34 34 34) !important;
 }
 /* End Mail-Editor Text */
+
+/* ===== Kalender KW-Chips & Tagesleiste dunkel ===== */
+[ui-view=calendars] span.md-hue-1.md-bg {
+    background-color: rgb(63 59 59) !important;
+    color: rgb(197 197 197) !important;
+}
+[ui-view=calendars] div.md-fg.md-hue-1 {
+    background-color: rgb(49 49 49) !important;
+}
+[ui-view=calendars] .dayLabels {
+    color: rgb(197 197 197) !important;
+}
+/* End Kalender KW & Tagesleiste */
