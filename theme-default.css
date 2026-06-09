@@ -263,3 +263,12 @@ main.view.md-default-theme.md-background.md-hue-1.md-bg {
     margin-left: 6px;
 }
 /* End Absender-Mail Chip */
+
+
+/* ===== Mail-Editor Text schwarz ===== */
+.ck-content,
+.ck-content :not(a),
+.ck.ck-editor__editable {
+    color: rgb(34 34 34) !important;
+}
+/* End Mail-Editor Text */
